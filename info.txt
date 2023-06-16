@@ -1,0 +1,23 @@
+FROM MYSQL PACKAGE:
+
+1)app.DB, err = sql.Open("mysql",connectionString):
+->open opens a database specified by its database driver name and a driver specific data source 
+name usually consisiting of at least a database name and connection information
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
