@@ -10,9 +10,8 @@ pipeline {
 
     stages{
         stage('Test') {
-            steps{
-                git 'https://github.com/SajjanYadav/RESTapi-using-GO.git'    
-                sh 'go test ./...'                                           
+            steps{    
+                sh 'go test'                                           
             }
         }
     }
